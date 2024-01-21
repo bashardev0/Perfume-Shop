@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfume shop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <!-- This code snippet is an HTML document that creates a webpage for a perfume shop. It includes sections for information about fragrances, a men's section, a women's section, and a contact form. -->
+  <body>
+    <header class="header">
+      <h4 class="header__title">
+        FREE DELIVERY UPON PURCHASING 3+ FRAGRANCES!
+      </h4>
+      <nav class="header__nav-list">
+        <ul class="nav-list">
+          <li>
+            <a class="nav-list__link nav-list__link--active" href="#">Home</a>
+          </li>
+          <li>
+            <a class="nav-list__link" href="#about fragrance"
+              >About Fragrance</a
+            >
+          </li>
+          <li><a class="nav-list__link" href="#contact me">Contact Me</a></li>
+          <li>
+            <a class="nav-list__link" href="#men's section">Men's section</a>
+          </li>
+          <li>
+            <a class="nav-list__link" href="#women's section"
+              >Women's section</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="about" id="about fragrance">
+        <h2 class="about__title">About fragrance:</h2>
+        <span class="about__text"
+          >Fragrances are created by mixing perfume oil with alcohol; the more
+          perfume oil, the stronger the fragrance and the longer it will last.
+          <abbr title="Eau de Parfum">EDP</abbr> is the strongest type of
+          perfume we sell. Eau de Parfum contains between
+          <i><b>10-20%</b></i> of perfume oil, and is a popular choice with both
+          perfume brands and customers.</span
+        >
+      </section>
+      <hr />
+
+      <section class="portfolio" id="men's section">
+        <div class="portfolio__cards">
+          <div class="project">
+            <h3 class="portfolio__title">Bleu De Channel</h3>
+            <img
+              class="project__image"
+              src="./images/bleu de channel.png"
+              alt="Bleu de channel"
+            />
+
+            <p class="project__description">
+              Bleu de Chanel by Chanel is a Woody Aromatic fragrance for men.
+              Bleu de Chanel was launched in 2010. The nose behind this
+              fragrance is Jacques Polge.
+            </p>
+            <button class="project__button">Shop Now</button>
+          </div>
+          <div class="project">
+            <h3 class="portfolio__title">Creed</h3>
+            <img class="project__image" src="./images/creed.png" alt="Creed" />
+
+            <p class="project__description">
+              Absolu Aventus by Creed is a fragrance for men. This is a new
+              fragrance. Absolu Aventus was launched in 2023. Top notes are
+              Grapefruit, Bergamot and Black Currant; middle notes are Ginger,
+              Cinnamon, Citron and Cardamom; base notes are Pink Pepper,
+              Patchouli and Vetiver.
+            </p>
+            <button class="project__button">Shop Now</button>
+          </div>
+          <div class="project">
+            <h3 class="portfolio__title">Sauvage</h3>
+            <img
+              class="project__image"
+              src="./images/sauvage.png"
+              alt="Sauvage"
+            />
+
+            <p class="project__description">
+              Very sexy smell. Notes in this fragrance include calabrian
+              bergamot and spicy mandarin, an intense woody base of cedar and
+              sandalwood, and a rich base of vanilla.
+            </p>
+            <button class="project__button">Shop Now</button>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="portfolio" id="women's section">
+        <div class="portfolio__women">
+          <div class="project">
+            <h3 class="portfolio__title">Gucci Flora</h3>
+            <img
+              class="project__image"
+              src="./images/Gucci flora.png"
+              alt="Gucci Flora"
+            />
+
+            <p class="project__description">
+              Flora by Gucci Eau de Parfum by Gucci is a Floral fragrance for
+              women. Flora by Gucci Eau de Parfum was launched in 2010. Top
+              notes are Peony, Citruses and Mandarin Orange; middle notes are
+              Osmanthus and Rose; base notes are Sandalwood, Patchouli and Pink
+              Pepper.
+            </p>
+            <button class="project__button">Shop Now</button>
+          </div>
+          <div class="project">
+            <h3 class="portfolio__title">Chance Channel</h3>
+            <img
+              class="project__image"
+              src="./images/Chance channel.png"
+              alt="Chance Channel"
+            />
+
+            <p class="project__description">
+              Chance Eau de Parfum by Chanel is a Chypre Floral fragrance for
+              women. Chance Eau de Parfum was launched in 2005. The nose behind
+              this fragrance is Jacques Polge. Top note is Pink Pepper; middle
+              notes are Jasmine and Iris; base notes are Patchouli, Musk and
+              Vanilla.
+            </p>
+            <button class="project__button">Shop Now</button>
+          </div>
+          <div class="project">
+            <h3 class="portfolio__title">Miss Dior</h3>
+            <img
+              class="project__image"
+              src="./images/Miss dior.png"
+              alt="Miss Dior"
+            />
+
+            <p class="project__description">
+              Miss Dior Eau de Parfum (2021) by Dior is a Amber Floral fragrance
+              for women. Miss Dior Eau de Parfum (2021) was launched in 2021.
+              The nose behind this fragrance is François Demachy. Top notes are
+              Iris, Peony and Lily-of-the-Valley; middle notes are Apricot, Rose
+              and Peach; base notes are Vanilla, Musk, Tonka Bean, Benzoin and
+              Sandalwood.
+            </p>
+            <button class="project__button">Shop Now</button>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="contact" id="contact me">
+        <h2 class="contact__title">Contact Me</h2>
+        <form class="contact__form">
+          <label class="contact__label" for="name">Name:</label>
+          <input
+            class="contact__input"
+            type="text"
+            id="name"
+            name="name"
+            required
+          /><br /><br />
+          <label class="contact__label" for="email">Email:</label>
+          <input
+            class="contact__input"
+            type="email"
+            name="email"
+            id="email"
+            required
+          /><br /><br />
+          <label class="contact__label" for="message">Message</label>
+          <textarea
+            class="contact__textarea"
+            name="message"
+            id="message"
+            rows="4"
+          ></textarea>
+          <br />
+          <input class="contact__submit" type="submit" value="Send Message" />
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy;Perfume Shop</p>
+    </footer>
+  </body>
+</html>
